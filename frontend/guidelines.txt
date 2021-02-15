@@ -1,0 +1,11 @@
+****************************
+NFT Web Application
+****************************
+
+Web Application to facilitate in launching NFT to Ethereum network with the in-browser Metamask extension.
+In addition to Ethereum mainnet, the following testnets are also supported
+
+- Rinkeby
+- Ropsten
+- Kovan
+

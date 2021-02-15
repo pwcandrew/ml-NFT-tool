@@ -1,0 +1,137 @@
+@import '~antd/dist/antd.less';
+
+@primary-color: #3d3780;
+@font-size-base: 17px;
+
+.ant-modal-mask {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.ant-form-item-label {
+  white-space: pre-wrap;
+  > label {
+    height: auto;
+    color: #665eba;
+    &.ant-form-item-required {
+      &::before {
+        content: '';
+        margin: 0;
+      }
+    }
+    &::after {
+      content: '';
+    }
+  }
+}
+.ant-layout-header {
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  height: 70px;
+}
+.ant-layout-footer {
+  padding: 15px 25px;
+  background: #fff;
+  @media screen and (max-width: 567px) {
+    padding: 30px 15px;
+  }
+}
+.ant-btn {
+  border-radius: 20px;
+}
+.ant-btn-primary {
+  // background-image: linear-gradient(90deg, #3d3780 0%, #443780 100%);
+  border: none;
+  &:disabled,
+  &:disabled:hover {
+    background: rgba(234, 81, 101, 0.5);
+    border: none;
+    color: #fff;
+  }
+}
+.ant-big-btn {
+  height: 50px;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 13px 15px;
+  background-color: #1842e8;
+  @media screen and (min-width: 568px) {
+    min-width: 180px;
+  }
+}
+.ant-modal-body {
+  padding-top: 40px;
+}
+.ant-modal-content {
+  border-radius: 15px;
+}
+.ant-notification {
+  width: auto !important;
+  margin-right: 16px;
+
+  .notification-class {
+    max-width: 500px;
+    background: #f0f0f0da;
+    border: 1px solid #b7b9c5c7;
+    box-sizing: border-box;
+    text-align: center;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    border-radius: 6px;
+
+    .ant-notification-notice-message {
+      font-size: 16px;
+      color: #8c8c8c91;
+      margin: 0;
+      .text {
+        font-size: 16px;
+      }
+    }
+  }
+}
+.ant-input-suffix {
+  display: flex;
+  align-items: center;
+}
+.ant-input-affix-wrapper {
+  border-radius: 6px;
+  padding: 5px 11px;
+}
+.ant-upload {
+  .ant-btn {
+    border-radius: 6px;
+    background: transparent;
+    border: 1px dashed #bdbdbd;
+    height: 40px;
+    padding: 10px 15px;
+    &:hover {
+      border-color: #3d3780;
+    }
+  }
+}
+.ant-input {
+  border-radius: 6px;
+  padding: 8px 11px 5px;
+  font-size: 16px;
+  &:read-only {
+    &:hover,
+    &:focus {
+      border-color: #d9d9d9;
+      cursor: default;
+    }
+  }
+}
+.ant-form-item-explain {
+  padding-top: 5px;
+}
+.ant-menu-horizontal {
+  border: none;
+  line-height: initial;
+  > .ant-menu-item {
+    border: none;
+    &:hover {
+      border: none;
+    }
+  }
+}

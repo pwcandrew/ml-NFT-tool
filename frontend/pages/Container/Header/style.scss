@@ -1,0 +1,29 @@
+@use "sass:map";
+@import 'pages/Style/variable.scss';
+
+.header-container {
+  position: fixed;
+  background: #ffffff !important;
+  z-index: 999;
+  width: 100%;
+  padding: 0 40px !important;
+  margin-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  @media screen and (max-width: 567px) {
+    padding: 0 15px !important;
+  }
+
+  .right-side {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    height: 50px;
+
+    img {
+      height: 100%;
+    }
+  }
+}

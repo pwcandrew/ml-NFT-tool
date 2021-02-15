@@ -1,0 +1,38 @@
+$background-image: (
+  'gradient': linear-gradient(90deg, #3d3780 0%, #443780 100%),
+);
+
+$background-colors: (
+  'page': #f2f2f2,
+  'main': #515a79,
+  'bg-1': #898bc2,
+  'bg-2': #bdc3d7,
+  'bg-3': rgba(255, 255, 255, 0.15),
+  'bg-5': #e5e5e5,
+  'bg-6': #fff,
+);
+
+$text-colors: (
+  'main': #665eba,
+  'color-1': #3d3780,
+  'color-2': #333333,
+  'color-3': #191538,
+  'color-4': #191538,
+);
+
+$font-sizes: (
+  'xs': 10px,
+  'sm': 12px,
+  '1x': 14px,
+  '2x': 15px,
+  '3x': 17px,
+  '4x': 20px,
+  '5x': 28px,
+  '6x': 32px,
+);
+
+$border-colors: (
+  'main': #e0e0e0,
+  'border-1': #3d3780,
+  'border-2': #333333,
+);
